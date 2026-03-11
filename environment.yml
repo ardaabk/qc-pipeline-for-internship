@@ -1,0 +1,14 @@
+name: massive_qc_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - nextflow
+  - snakemake
+  - biopython
+  - pandas
+  - matplotlib
+  - seaborn
+  - nanoplot
